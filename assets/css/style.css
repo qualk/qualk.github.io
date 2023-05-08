@@ -2,14 +2,9 @@
   #style.css
 \*-----------------------------------*/
 
-
 /**
  * copyright 2022 @codewithsadee
  */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -331,9 +326,10 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+.avatar-box img {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 21px;
+  width: 150px;
 }
 
 .info-content .name {
@@ -1427,7 +1423,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box img { width: 80px; }
+  .testimonials-avatar-box img { 
+    width: 80px;
+    background: var(--bg-gradient-onyx);
+    border-radius: 20px;
+   }
 
   .testimonials-item-title {
     margin-bottom: 10px;
@@ -1834,8 +1834,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .sidebar-info { flex-direction: column; }
-
-  .avatar-box img { width: 150px; }
 
   .info-content .name {
     white-space: nowrap;

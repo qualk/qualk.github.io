@@ -329,7 +329,7 @@ main {
 .avatar-box img {
   background: var(--bg-gradient-onyx);
   border-radius: 21px;
-  width: px;
+  width: 80px;
 }
 
 .info-content .name {

@@ -6,6 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>qualk</title>
+
+  <!--
+    - Discord Rich Embed
+  -->
   <meta property="og:title" content="qualk" />
   <meta property="og:description" content="qualk's website lmao" />
   <meta property="og:url" content="https://qualk.xyz" />
@@ -29,6 +33,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!--
+    Cloudflare Turnstile
+  -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 </head>
 
 <body>
@@ -365,7 +375,7 @@
                 <img src="./assets/images/avatars/avatar-1.png" alt="Asicalug" width="80" data-modal-img>
               </figure>
 
-              <img src="./assets/images/avatars/icon-quote.svg" alt="quote icon">
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
             </div>
 
             <div class="modal-content">
@@ -760,8 +770,7 @@
 
               </a>
             </li>
-
-
+    
             <!--
             <li class="photos-item  active" data-filter-item data-category="other">
               <a href="#">
@@ -911,13 +920,7 @@
           </ul>
 
         </section>
-
       </article>
-
-
-
-
-
       <!--
         - #BLOG
       -->
@@ -1120,6 +1123,7 @@
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
+      <!--
         <section class="mapbox" data-mapbox>
           <figure>
             <iframe
@@ -1127,6 +1131,7 @@
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>
+      -->
 
         <section class="contact-form">
 
@@ -1141,6 +1146,7 @@
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAAAEquHRxFFtbKCfM"></div>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
@@ -1160,7 +1166,10 @@
 
 
 
-
+  <!--
+    - Cloudflare Turnstile
+  -->
+  
 
   <!--
     - custom js link

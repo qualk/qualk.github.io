@@ -1629,6 +1629,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .photos-list, .blog-posts-list { grid-template-columns: 1fr 1fr; }
 
+  /* Photo popup modal TODO*/
+
 
 
   /**
@@ -1638,7 +1640,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .input-wrapper { grid-template-columns: 1fr 1fr; }
 
   .form-btn {
-    width: max-content;
+    width: 100%;
     margin-left: auto;
   }
   

@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/avatar-qualk.png" alt="qualk" width="80">
+          <img src="./assets/images/avatars/avatar-qualk.png" alt="qualk" width="80">
         </figure>
 
         <div class="info-content">
@@ -134,7 +134,7 @@
           </li>
 
           <li class="social-item">
-            <a href="https://github.comm/qualk" class="social-link">
+            <a href="https://github.com/qualk" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
@@ -221,6 +221,13 @@
             I contribute to many Java projects related to Minecraft, such as various plugins that utilise the 
             Bukkit/Spigot/Paper/Purpur API, such as Light and Photon API, and clients, such as Axolotl and Cloud.
           </p>
+
+          <!--
+          <p>
+            You can also look at my <a href="#photos">Cat Pics</a>
+          </p>
+          -->
+
         </section>
 
 
@@ -245,7 +252,7 @@
                 <h4 class="h4 service-item-title">Plagarism</h4>
 
                 <p class="service-item-text">
-                  I never produce original code and is inspired by others.
+                  I never produce original code and I am always "inspired" by others.
                 </p>
               </div>
 
@@ -318,7 +325,7 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-asicalug.png" alt="Asicalug" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatars/avatar-asicalug.png" alt="Asicalug" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Asicalug</h4>
@@ -336,7 +343,7 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-sokmai.png" alt="sok mai" width="60" data-testimonials-avatar>
+                  <img src="./assets/images/avatars/avatar-sokmai.png" alt="sok mai" width="60" data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>sok mai</h4>
@@ -370,7 +377,7 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Asicalug" width="80" data-modal-img>
+                <img src="./assets/images/avatar/avatar-asicalug.png" alt="Asicalug" width="80" data-modal-img>
               </figure>
 
               <img src="./assets/images/icon-quote.svg" alt="quote icon">
@@ -407,13 +414,13 @@
 
             <li class="clients-item">
               <a href="https://solartweaks.com/index.html">
-                <img src="./assets/images/logo-solar-tweaks.png" alt="Solar Tweaks">
+                <img src="./assets/images/logo/logo-solar-tweaks.png" alt="Solar Tweaks">
               </a>
             </li>
 
             <li class="clients-item">
               <a href="https://robotics.nbhs.nsw.edu.au/">
-                <img src="./assets/images/logo-ctrl-f5.png" alt="client logo">
+                <img src="./assets/images/logo/logo-ctrl-f5.png" alt="CTRL F5 Robotics">
               </a>
             </li>
 
@@ -434,7 +441,7 @@
       <article class="resume" data-page="resume">
 
         <header>
-          <h2 class="h2 article-title">Resume</h2>
+          <h2 class="h2 article-title">"Resume"</h2>
         </header>
 
         <section class="timeline">
@@ -584,7 +591,7 @@
           <h2 class="h2 article-title">Photos</h2>
         </header>
 
-        <section class="photos">
+        <section class="photos" id="photos">
 
 
           <ul class="filter-list">
@@ -615,7 +622,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-select-value>Select category</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -655,11 +662,13 @@
               <a href="#">
 
                 <figure class="photos-img">
+                <!--
                   <div class="photos-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+                -->
 
-                  <img src="./assets/images/avatar-qualk-old.png" alt="cat" loading="lazy">
+                  <img src="./assets/images/photos/cat1.jpg" alt="cat" loading="lazy">
                 </figure>
 
                 <h3 class="photos-title">Leia</h3>
@@ -669,114 +678,127 @@
               </a>
             </li>
 
-            <!--
+            <li class="photos-item  active" data-filter-item data-category="sleeping">
+              <a href="#">
+
+                <figure class="photos-img">
+                <!--
+                  <div class="photos-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                -->
+
+                  <img src="./assets/images/photos/cat2.jpg" alt="cat" loading="lazy">
+                </figure>
+
+                <h3 class="photos-title">Leia</h3>
+
+                <p class="photos-category">Sleeping</p>
+
+              </a>
+            </li>
+
+            <li class="photos-item  active" data-filter-item data-category="sitting">
+              <a href="#">
+
+                <figure class="photos-img">
+                <!--
+                  <div class="photos-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                -->
+
+                  <img src="./assets/images/photos/cat3.jpg" alt="cat" loading="lazy">
+                </figure>
+
+                <h3 class="photos-title">Leia</h3>
+
+                <p class="photos-category">blep</p>
+
+              </a>
+            </li>
+
+            <li class="photos-item  active" data-filter-item data-category="sleeping">
+              <a href="#">
+
+                <figure class="photos-img">
+                <!--
+                  <div class="photos-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                -->
+
+                  <img src="./assets/images/photos/cat4.jpg" alt="cat" loading="lazy">
+                </figure>
+
+                <h3 class="photos-title">Leia</h3>
+
+                <p class="photos-category">Resting</p>
+
+              </a>
+            </li>
+
             <li class="photos-item  active" data-filter-item data-category="other">
               <a href="#">
 
                 <figure class="photos-img">
+                <!--
                   <div class="photos-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+                -->
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/photos/cat5.jpg" alt="cat" loading="lazy">
                 </figure>
 
-                <h3 class="photos-title">Orizon</h3>
+                <h3 class="photos-title">Leia</h3>
 
-                <p class="photos-category">Web development</p>
+                <p class="photos-category">idkwtf</p>
 
               </a>
             </li>
 
-            <li class="photos-item  active" data-filter-item data-category="web design">
+            <li class="photos-item  active" data-filter-item data-category="sleeping">
               <a href="#">
 
                 <figure class="photos-img">
+                <!--
                   <div class="photos-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+                -->
 
-                  <img src="./assets/images/photos-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/photos/cat6.jpg" alt="cat" loading="lazy">
                 </figure>
 
-                <h3 class="photos-title">Fundo</h3>
+                <h3 class="photos-title">Leia</h3>
 
-                <p class="photos-category">Web design</p>
+                <p class="photos-category">reflection</p>
 
               </a>
             </li>
 
-            <li class="photos-item  active" data-filter-item data-category="applications">
+            <li class="photos-item  active" data-filter-item data-category="sitting">
               <a href="#">
 
                 <figure class="photos-img">
+                <!--
                   <div class="photos-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
+                -->
 
-                  <img src="./assets/images/photos-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/photos/cat8.jpg" alt="cat" loading="lazy">
                 </figure>
 
-                <h3 class="photos-title">Brawlhalla</h3>
+                <h3 class="photos-title">Leia</h3>
 
-                <p class="photos-category">Applications</p>
+                <p class="photos-category">Sitting</p>
 
               </a>
             </li>
 
-            <li class="photos-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="photos-img">
-                  <div class="photos-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/photos-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="photos-title">DSM.</h3>
-
-                <p class="photos-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="photos-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="photos-img">
-                  <div class="photos-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/photos-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="photos-title">MetaSpark</h3>
-
-                <p class="photos-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="photos-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="photos-img">
-                  <div class="photos-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/photos-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="photos-title">Summary</h3>
-
-                <p class="photos-category">Web development</p>
-
-              </a>
-            </li>
+            <!--
 
             <li class="photos-item  active" data-filter-item data-category="applications">
               <a href="#">

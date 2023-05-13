@@ -48,6 +48,8 @@
     hsl(45, 100%, 72%), 
     hsl(35, 100%, 68%)
   );
+  --bg-gradient-anim: linear-gradient(
+    315deg, #2d3436 0%, #000000 74%);
 
   /* solid */
 
@@ -150,7 +152,28 @@ input, textarea {
 
 html { font-family: var(--ff-nunito); }
 
-body { background: var(--smoky-black); }
+/* body { background: var(--smoky-black); } */
+body { 
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  background-size: 400% 400%;
+  animation: gradient-anim-onyx 5s ease infinite;
+}
+
+@keyframes gradient-anim-onyx {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+ 
+
+
 
 
 
@@ -163,10 +186,10 @@ body { background: var(--smoky-black); }
 .sidebar,
 article {
   background: var(--eerie-black-2);
-  border: 1px solid var(--jet);
+  border: 1.75px solid var(--border-gradient-onyx);
   border-radius: 20px;
   padding: 15px;
-  box-shadow: var(--shadow-1);
+  box-shadow: none;
   z-index: 1;
 }
 
@@ -300,7 +323,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
 
 
 

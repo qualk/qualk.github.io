@@ -17,27 +17,19 @@
   <meta content="#FFA500" data-react-helmet="true" name="theme-color" />
   <meta name="twitter:card" content="summary_large_image">
 
-  <!--
-    - favicon
-  -->
+  <!-- favicon -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
+  <!-- custom css link -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
+  <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-  <!--
-    Cloudflare Turnstile
-  -->
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <!-- Open hrefs in new tab-->
+  <base target="_blank" rel="noopener noreferrer">
 
 </head>
 
@@ -188,9 +180,11 @@
             <button class="navbar-link" data-nav-link>Photos</button>
           </li>
 
+          <!--
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
           </li>
+        -->
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -297,6 +291,66 @@
                 <p class="service-item-text">
                   I like participating in wet photography, although I'm not very good at it.
                 </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="skill">
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend</h5>
+                <data value="80">0%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 0%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Backend</h5>
+                <data value="70">5%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 5%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">3%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 3%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Originality</h5>
+                <data value="50">-100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 0%;"></div>
               </div>
 
             </li>
@@ -658,7 +712,7 @@
                 <p class="photos-category">Resting</p>
 
               </a>
-            </li>
+            </li> 
 
 
             <li class="photos-item  active" data-filter-item data-category="sitting">
@@ -921,10 +975,13 @@
 
         </section>
       </article>
+
+
+
       <!--
         - #BLOG
-      -->
-
+      
+      
       <article class="blog" data-page="blog">
 
         <header>
@@ -1109,9 +1166,7 @@
 
       </article>
 
-
-
-
+    -->
 
       <!--
         - #CONTACT
@@ -1122,16 +1177,6 @@
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
-
-      <!--
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424141.6978944982!2d150.93197474999997!3d-33.84824395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW!5e0!3m2!1sen!2sau!4v1683072340856!5m2!1sen!2sau"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-      -->
 
         <section class="contact-form">
 
@@ -1146,7 +1191,6 @@
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-            <div class="cf-turnstile" data-sitekey="0x4AAAAAAAEquHRxFFtbKCfM"></div>
 
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
@@ -1163,24 +1207,13 @@
 
   </main>
 
-
-
-
-  <!--
-    - Cloudflare Turnstile
-  -->
   
-
-  <!--
-    - custom js link
-  -->
+  <!-- custom js link -->
   <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons/dist/ionicons/ionicons.js"></script>
 
 </body>
 

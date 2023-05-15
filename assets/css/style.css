@@ -853,7 +853,10 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
+.skills-list { 
+  padding: 20px; 
+  margin-bottom: 50px;
+}
 
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
@@ -883,9 +886,6 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
-
-
 
 
 /*-----------------------------------*\
@@ -1456,8 +1456,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .testimonials-text {
-    line-clamp: 2;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
   }
 
   /* testimonials modal */
@@ -1493,6 +1493,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   /* clients */
+  .clients-title { 
+    margin-top: -30px; 
+  }
 
   .clients-list {
     gap: 50px;

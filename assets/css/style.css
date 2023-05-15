@@ -1493,9 +1493,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   /* clients */
-  .clients-title { 
-    margin-top: -30px; 
-  }
 
   .clients-list {
     gap: 50px;
